@@ -267,7 +267,7 @@ docker login
 
 ```
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: abhishekf5
+Username: uneshkushwaha
 Password:
 WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
 Configure a credential helper to remove this warning. See
@@ -311,7 +311,7 @@ Output of the above command
     Removing intermediate container 5d60ad3a59ff
      ---> 960d37536dcd
     Successfully built 960d37536dcd
-    Successfully tagged abhishekf5/my-first-docker-image:latest
+    Successfully tagged uneshkushwaha/my-first-docker-image:latest
 ```
 
 ### Verify Docker Image is created
@@ -323,16 +323,16 @@ docker images
 Output 
 
 ```
-REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
-abhishekf5/my-first-docker-image   latest    960d37536dcd   26 seconds ago   467MB
-ubuntu                             latest    58db3edaf2be   13 days ago      77.8MB
-hello-world                        latest    feb5d9fea6a5   16 months ago    13.3kB
+REPOSITORY                            TAG       IMAGE ID       CREATED         SIZE
+uneshkushwaha/my-first-docker-image   latest    4cc71e6ea82a   6 minutes ago   476MB
+ubuntu                                latest    ca2b0f26964c   6 weeks ago     77.9MB
+hello-world                           latest    d2c94e258dcb   11 months ago   13.3kB                     latest    feb5d9fea6a5   16 months ago    13.3kB
 ```
 
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it uneshkushwaha/my-first-docker-image
 ```
 
 Output
@@ -344,19 +344,19 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push uneshkushwaha/my-first-docker-image
 ```
 
 Output
 
 ```
+
 Using default tag: latest
-The push refers to repository [docker.io/abhishekf5/my-first-docker-image]
-896818320e80: Pushed
-b8088c305a52: Pushed
-69dd4ccec1a0: Pushed
-c5ff2d88f679: Mounted from library/ubuntu
-latest: digest: sha256:6e49841ad9e720a7baedcd41f9b666fcd7b583151d0763fe78101bb8221b1d88 size: 1157
+The push refers to the repository [docker.io/uneshkushwaha/my-first-docker5b19eea0f52f: Pushed
+5b19eea0f52f: Pushing  239.5MB/398.4MB
+c6da07077252: Pushed
+ecfa7ceac9e2: Pushed
+latest: digest: sha256:7256962234eaabd767c8e3f38bcc9ff7fde2c74cd824f47e40fc7ef6ae60bce5 size: 1155
 ```
 
-### You must be feeling like a champ already 
+
